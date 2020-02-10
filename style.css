@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kanit:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+/* Nav bar */
+
+nav{
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #fff;
+  z-index: 2;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 5px 0 #ddd, 0 2px 10px 0 #fff;
+}
+
+nav ul li a, .navbar-nav{
+  color: #000!important;
+  font-family: 'Julius Sans One', sans-serif;
+  letter-spacing: 1px;
+}
+
+nav .navbar-brand img{
+  height: 7vw;
+  width: auto;
+}
+
+nav ul li a:hover{
+  color: #ddd!important;
+}
+
+/* / END Nav bar */
+
+
+
+.header{
+  margin: 0;
+  padding: 0!important;
+}
+
+.header img{
+  min-width: 100%;
+  height: auto;
+  display: inline;
+}
+
+
+.intro{
+  transform: translateY(50px);
+  z-index: 1;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 #A0A1A2;
+  font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.julius-font{
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.kanit-font{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+}
+
+.videoContainer{
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.videoContainer video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.icons h6{
+  color: #0077c8;
+}
+
+
+.categoriesRow{
+  min-height: 50vh;
+
+}
+
+.categoriesCol{
+  height: inherit;
+  position: relative;
+  overflow: hidden;
+}
+.categoriesRow img{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  min-height: 100%;
+  width: auto;
+
+}
+
+.curtain{
+  -webkit-filter: opacity(.2);
+  filter: opacity(.2);
+}
+
+.categoriesContent{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+
+
+/* Gallery */
+
+.imagesContainer{
+  width: 90%;
+  height: 100%;
+  position: relative;
+}
+
+.imageContainer{
+  width: 20vw;
+  height: 20vw;
+
+  overflow: hidden;
+}
+
+.imageContainer:hover{
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+.selectedImage{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.galleryBackground{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0.8;
+  background-color: #fff;
+}
+
+.imagesContainer img{
+  height: inherit;
+  width: auto;
+}
+
+.closeBtn{
+  width: 30px!important;
+  height: 30px!important;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  color: #ddd;
+}
+
+/* end Gallery */
+
+
+.footer{
+  border-top: 1px solid #ddd;
+}
+
+
+/* about the author page*/
+
+.aboutContent{
+  margin-top: 10vw;
+}
+
+
+.aboutContent img{
+  max-width: 70vw;
+}
+
+.nunito-font{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* / END about the author page*/
+
+
+
+/* Contact page*/
+.about-content{
+  margin-top: 10vw;
+}
+
+/* / END Contact page */
